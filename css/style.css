@@ -6,6 +6,7 @@
 body{
     background: url(../img/cruze-no-topo-de-uma-montanha\(1\).jpg);
     background-size: cover;
+    max-height: 100vh;
     min-height: 70vh;
     background-position: center ;
     background-repeat: no-repeat;
@@ -92,9 +93,4 @@ body{
             height: 100%;
             
         }
-        .button{
-            
-
-        }
-        
     }
