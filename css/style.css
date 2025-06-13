@@ -1,0 +1,100 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(../img/cruze-no-topo-de-uma-montanha\(1\).jpg);
+    background-size: cover;
+    min-height: 70vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    
+
+}
+.container{
+    
+    backdrop-filter: blur(34px);
+    border: 2px solid rgb(252, 0, 0);
+    width: 380px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.titulo{
+    font-size: 44px;
+    color: red;
+}
+
+.input-item{
+    position: relative;
+    cursor: pointer;
+    width: 210px;
+    border: none;
+    border: 2px solid grey;
+    background-color: transparent;
+    padding: 3px;
+    outline: none;
+    border-radius: 9px;
+}
+.imagem-item{
+    max-width: 100%;
+    position: absolute;
+    right: 22%;
+    top: 109px;
+}
+
+.imagem-item1{
+    max-width: 100%;
+    position: absolute;
+    right: 22%;
+    top: 143px;
+}
+.a{
+    color: red;
+    text-decoration: none;
+}
+
+.button{
+    width: 10rem;
+    margin-top: 20px;
+   background-color: transparent;
+   border: none;
+   border: 2px solid red;
+   border-radius: 7px;
+   padding: 5px;
+   cursor: pointer;
+}
+
+@media screen and(max-width: 768px;){
+.container{
+    width: 49%;
+    padding: 2px;
+     }
+     .button{
+        width: 10rem;
+      
+     }
+    }
+
+    @media  screen and(max-width:3840px;){
+        .container{
+            width: 100%;
+            height: 100%;
+            
+        }
+        .button{
+            
+
+        }
+        
+    }
