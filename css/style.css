@@ -6,8 +6,7 @@
 body{
     background: url(../img/cruze-no-topo-de-uma-montanha\(1\).jpg);
     background-size: cover;
-    max-height: 100vh;
-    min-height: 70vh;
+    min-height: 100vh;
     background-position: center ;
     background-repeat: no-repeat;
     display: flex;
@@ -85,6 +84,14 @@ body{
         width: 10rem;
       
      }
+     body{
+        background: url(../img/cruze-no-topo-de-uma-montanha\(1\).jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        min-width: 100vh;
+       background-position: center;
+    }
     }
 
     @media  screen and(max-width:3840px;){
