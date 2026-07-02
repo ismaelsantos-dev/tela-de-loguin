@@ -10,21 +10,21 @@
 </head>
 <body class="animate__animated animate__bounceIn" style="background-color: black;">
     <div class="d-flex justify-content-center align-items-center vh-100 flex-column gap-2">
-        <h1>fatura <span class="text-success">++</span></h1>
+        <h1 class="text-white ">fatura <span class="text-success">++</span></h1>
+        <form action="#" class="col-11 col-sm-8 col-md-5 col-lg-3 d-flex flex-column gap-3">
         <div>
-            <label for="senha">senha</label>
-            <input class="form-control" type="password" id="seha" placeholder="****" required>
-        </div>
-        <div>
-            <label for="email">Email</label>
-            <input class="form-control" type="email" id="email" placeholder="@Gmail.com"required>
-        </div>
-        <div>
-            <label for="nome">Nome</label>
+            <label class="text-success" for="nome">Nome</label>
             <input class="form-control" type="text"id="nome" placeholder="Nome completo" required>
         </div>
-        <form action="#">
-            <button class="btn btn-outline-success mt-3" type="click">criar conta</button>
+        <div>
+            <label class="text-success" for="senha">senha</label>
+            <input class="form-control" type="password" id="senha" placeholder="****" required>
+        </div>
+        <div>
+            <label class="text-success" for="email">Email</label>
+            <input class="form-control" type="email" id="email" placeholder="@Gmail.com"required>
+        </div>
+            <button class="btn btn-outline-success mt-3" type="submit">criar conta</button>
         </form>
     </div>
     
